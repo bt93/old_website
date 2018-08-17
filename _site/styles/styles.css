@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
+/* Keeps footer down to bottom */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Makes sure content isn't blocked by the footer */
+.main-content {
+	padding-bottom: 60px;
+}
