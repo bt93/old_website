@@ -19,3 +19,7 @@ body {
 .main-content {
 	padding-bottom: 100px;
 }
+
+.blog-list {
+	list-style-type: none;
+}
