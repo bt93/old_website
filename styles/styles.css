@@ -23,3 +23,8 @@ body {
 .blog-list {
 	list-style-type: none;
 }
+
+.blog-list li {
+	padding-bottom: 30px;
+	border-bottom: 2px #343a40 solid;
+}
