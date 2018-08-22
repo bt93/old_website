@@ -18,7 +18,7 @@ body {
 /* Makes sure content isn't blocked by the footer */
 .main-content {
 	padding-bottom: 100px;
-  border-bottom: border-bottom: 2px #343a40 solid;
+  border-bottom: 2px #343a40 solid;
 }
 
 .blog-list {
@@ -46,4 +46,14 @@ body {
 
 .jk {
   color: #DA0000;
+}
+
+.post img {
+  max-width: 1000px;
+}
+
+@media only screen and (max-width: 1220px) {
+  .post img {
+    width: 50vw;
+  }
 }
