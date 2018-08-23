@@ -30,10 +30,19 @@ body {
 	border-bottom: 2px #343a40 solid;
 }
 
+.post img {
+  max-width: 1000px;
+}
+
 .thumb-nail {
   width: 40%;
   border-radius: 50%;
   padding-bottom: 30px;
+}
+
+figcaption {
+  padding-left: 30%;
+  text-decoration: underline;
 }
 
 .foot-text {
@@ -48,9 +57,6 @@ body {
   color: #DA0000;
 }
 
-.post img {
-  max-width: 1000px;
-}
 
 @media only screen and (max-width: 1220px) {
   .post img {
