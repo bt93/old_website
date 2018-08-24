@@ -1,2 +1,4 @@
 url: 'https://jasonrhowie.com'
 baseurl: ''
+
+permalink: /blog/:year/:month/:title/

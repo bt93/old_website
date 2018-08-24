@@ -17,7 +17,7 @@ body {
 
 /* Makes sure content isn't blocked by the footer */
 .main-content {
-	padding-bottom: 100px;
+	padding-bottom: 8em;
   border-bottom: 2px #343a40 solid;
 }
 
@@ -55,6 +55,10 @@ figcaption {
 
 .jk {
   color: #DA0000;
+}
+
+.icons p {
+  font-size: 1.7em;
 }
 
 
