@@ -16,24 +16,7 @@
 		<link rel="stylesheet" href="{{ site.baseurl }}{% link styles/styles.css %}">
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbarToggleExternalContent">
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav">
-		      <li class="nav-item">
-		        <a class="nav-link" href="{{ site.baseurl }}{% link index.html %}">Home</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="{{ site.baseurl }}{% link pages/portfolio.html %}">Portfolio</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="{{ site.baseurl }}{% link pages/blog.html %}">Blog</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
+		{% include navigation.html %}
 		<div class="jumbotron">
 		  <div class="container">
 		    <h1 class="display-4">Jason Howie</h1>
@@ -51,7 +34,7 @@
 
 		<nav class="footer navbar navbar-fixed-bottom navbar-expand-sm navbar-light bg-light">
 			<div class="container float-left">
-		  		<p>Jason Howie 2018</p>
+		  		<p>Jason Howie {{ site.time | date: '%Y' }}</p>
 		  	</div>
 		  	<div class="float-right foot-text">
 		  		<p>Made with <strong><span class="b-s">Bootstrap</span></strong> and <strong><span class="jk">Jekyll</span></strong>.</p>
