@@ -5,9 +5,9 @@ permalink: /blog/
 ---
 <div class="container">
 	<h1>Blog</h1>
-	<ul class="blog-list">
+	<ul>
 	  {% for post in site.posts %}
-	    <li>
+	    <li class="{% if forloop.last == true %}last-blog{% endif %} blog-list">
 	      <h2>{{ post.title }}</h2>  
 	      <small>{{ post.date | date: "%a - %B %-d, %Y" }}</small>
 	      {{ post.excerpt }}

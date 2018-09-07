@@ -23,11 +23,13 @@ body {
 
 .blog-list {
 	list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px #343a40 solid;
 }
 
-.blog-list li {
-	padding-bottom: 30px;
-	border-bottom: 2px #343a40 solid;
+.last-blog {
+  border-bottom: none;
 }
 
 .post img {
