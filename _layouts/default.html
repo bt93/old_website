@@ -8,7 +8,7 @@
 		<meta name="author" content="Jason Howie">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="{{ site.baseurl }}{% link img/favicon.ico %}">
-		<title>{{ page.title }} | Jason Howie</title>
+		<title>{{ page.title }} {% if page.layout == 'post' %}| Blog {% endif %}| Jason Howie</title>
 		<!-- Font Awesome CDN -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<!-- bootstrap CDN -->
