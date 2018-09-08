@@ -46,6 +46,13 @@ figcaption {
   text-decoration: underline;
 }
 
+.background {
+  background-image: url('https://images.pexels.com/photos/853719/pexels-photo-853719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: 15% 20%;
+  background-repeat: no-repeat;
+  border-radius: 0%;
+}
+
 .foot-text {
   font-size: .7em;
 }
@@ -61,7 +68,6 @@ figcaption {
 .icons p {
   font-size: 1.7em;
 }
-
 
 @media only screen and (max-width: 1220px) {
   .post img {
