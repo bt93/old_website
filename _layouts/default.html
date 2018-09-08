@@ -18,19 +18,19 @@
 	</head>
 	<body>
 		{% include navigation.html %}
-		<div class="jumbotron {% if page.title == 'Home' %}animated bounceInRight{% endif %}">
+		<div class="jumbotron">
 		  <div class="container">
 		    <h1 class="display-4">Jason Howie</h1>
 		    <p class="lead">Aspiring Web Developer</p>
 		  </div>
 		</div>
-		<div class="main-content">
+		<div class="main-content animated fadeIn">
 			<!-- Main Content -->
 			{{ content }}
 			<!-- /Main Content -->
 		</div>
 
-		<nav class="footer navbar navbar-fixed-bottom navbar-expand-sm navbar-light bg-light {% if page.title == 'Home' %}animated bounceInRight{% endif %}">
+		<nav class="footer navbar navbar-fixed-bottom navbar-expand-sm navbar-light bg-light">
 			<div class="container float-left">
 		  		<p>Jason Howie {{ site.time | date: '%Y' }}</p>
 		  	</div>
