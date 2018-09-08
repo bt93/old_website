@@ -10,7 +10,7 @@ permalink: /blog/
 	    <li class="{% if forloop.last == true %}last-blog{% endif %} blog-list">
 	      <h2>{{ post.title }}</h2>  
 	      <small>{{ post.date | date: "%a - %B %-d, %Y" }}</small>
-	      {{ post.excerpt }}
+	      {{ post.excerpt}}
 	      <a href="{{ post.url }}">Read More</a>
 	    </li>
 	  {% endfor %}
