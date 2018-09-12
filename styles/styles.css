@@ -70,11 +70,15 @@ figcaption {
 }
 
 .too-big {
-  height: 45vw;
+  height: 55vw;
 }
 
 @media only screen and (max-width: 1220px) {
   .post img {
     width: 50vw;
   }
+
+  .too-big {
+  height: 70vw;
+}
 }
