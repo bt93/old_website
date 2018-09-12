@@ -69,6 +69,10 @@ figcaption {
   font-size: 1.7em;
 }
 
+.too-big {
+  height: 45vw;
+}
+
 @media only screen and (max-width: 1220px) {
   .post img {
     width: 50vw;
