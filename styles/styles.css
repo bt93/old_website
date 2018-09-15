@@ -17,7 +17,7 @@ body {
 
 /* Makes sure content isn't blocked by the footer */
 .main-content {
-	padding-bottom: 8em;
+	padding-bottom: 10em;
 }
 
 .blog-list {
@@ -79,6 +79,6 @@ figcaption {
   }
 
   .too-big {
-  height: 70vw;
+  height: 122vw;
 }
 }
