@@ -69,8 +69,8 @@ figcaption {
   font-size: 1.7em;
 }
 
-.too-big {
-  height: 27vw;
+.portfolio {
+  height: 20em;
 }
 
 @media only screen and (max-width: 1220px) {
@@ -78,7 +78,7 @@ figcaption {
     width: 50vw;
   }
 
-  .too-big {
-  height: 100vw;
-}
+  .portfolio {
+    height: 15em;
+  }
 }
