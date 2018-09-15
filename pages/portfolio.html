@@ -7,9 +7,9 @@ permalink: /portfolio/
 	<h1>Portfolio</h1>
 	<div class="row">
 		{% for project in site.portfolio %}
-		<div class="col-sm-6 {% if project.title == 'Arcade Game Project' %}too-big{% endif %}">
+		<div class="col-sm-6">
 			<div class="card">
-				<img class="card-img-top" src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.title }}">
+				<img class="card-img-top {% if project.title == 'Arcade Game Project' %}too-big{% endif %}" src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.title }}">
 				<div class="card-body">
 					<h5 class="card-title">{{ project.title }}</h5>
 					<p class="card-text">{{ project.description }}</p>

@@ -70,7 +70,7 @@ figcaption {
 }
 
 .too-big {
-  height: 55vw;
+  height: 27vw;
 }
 
 @media only screen and (max-width: 1220px) {
@@ -79,6 +79,6 @@ figcaption {
   }
 
   .too-big {
-  height: 33em;
+  height: 100vw;
 }
 }
