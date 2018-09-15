@@ -1,4 +1,13 @@
+# Site Variables
+title: Jason Howie
+author: Jason Howie
+description: Jason Howie's personal website
 url: 'https://jasonrhowie.com'
 baseurl: ''
-
 permalink: /blog/:year/:month/:title/
+
+# Collections for portfolio
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name/

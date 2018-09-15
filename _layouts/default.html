@@ -3,12 +3,12 @@
 	<head>
 		{% include analytics.html %}
 		<meta charset="UTF-8">
-		<meta name="description" content="Jason Howie's personal website">
-		<meta name="keywords" content="Jason Howie Developer">
-		<meta name="author" content="Jason Howie">
+		<meta name="description" content="{{ site.description }}">
+		<meta name="keywords" content="{{ site.title }} Developer">
+		<meta name="author" content="{{ site.author }}">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="{{ site.baseurl }}{% link img/favicon.ico %}">
-		<title>{{ page.title }} {% if page.layout == 'post' %}| Blog {% endif %} | Jason Howie</title>
+		<title>{{ page.title }} {% if page.layout == 'post' %}| Blog {% endif %} | {{ site.title }} </title>
 		<!-- Font Awesome CDN -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<!-- bootstrap CDN -->
@@ -28,7 +28,7 @@
 
 		<nav class="footer navbar navbar-fixed-bottom navbar-expand-sm navbar-light bg-light">
 			<div class="container float-left">
-		  		<p>Jason Howie {{ site.time | date: '%Y' }}</p>
+		  		<p>{{ site.title }} {{ site.time | date: '%Y' }}</p>
 		  	</div>
 		  	<div class="float-right foot-text">
 		  		<p>Made with <strong><span class="b-s">Bootstrap</span></strong> and <strong><span class="jk">Jekyll</span></strong>.</p>
