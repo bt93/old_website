@@ -7,4 +7,4 @@ image: img/arcade_screenshot.png
 date: 2018-09-01 12:00:00 -0400
 description: An arcade game created for the Udacity Front-End Web Development Nanodegree.
 ---
-Use the 'up', 'down', 'left' and 'right' keys on your keyboard to move the player. Avoid contact with the enemy vehicles and try to make it to the water. If you make it to the water a point is added to your score. If you hit an enemy, a life is subtracted. If you reach zero lives your score goes back to zero. (Game not suitable for mobile devices).
+Use the 'up', 'down', 'left' and 'right' keys on your keyboard to move the player. Avoid contact with the enemy vehicles and try to make it to the water. If you make it to the water a point is added to your score. If you hit an enemy, a life is subtracted. If you reach zero lives your score goes back to zero. (Game not suitable for touch-screen devices).
