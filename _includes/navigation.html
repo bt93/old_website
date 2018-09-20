@@ -6,7 +6,22 @@
 	<ul class="navbar-nav">
 		{% for item in site.data.navigation %}
 	  	<li class="nav-item">
-   			 <a href="{% if page.url == item.link %}#{% else %}{{ site.baseurl }}{{ item.link }}{% endif %}" class="nav-link {% if page.url == item.link %}active {% endif %}{% if page.layout == 'post' and forloop.last == true %}active{% endif %} {% if page.layout == 'project' and forloop.index == 2 %}active{% endif %}">{{ item.name }}</a>
+   			 <a href="
+   			 {% if page.url == item.link %}
+   			 #
+   			 {% else %}
+   			 {{ site.baseurl }}{{ item.link }}
+   			 {% endif %}" 
+   			 class="nav-link 
+   			 {% if page.url == item.link %}
+   			 active 
+   			 {% endif %}
+   			 {% if page.layout == 'post' and forloop.last == true %}
+   			 active
+   			 {% endif %} 
+   			 {% if page.layout == 'project' and forloop.index == 2 %}
+   			 active
+   			 {% endif %}">{{ item.name }}</a>
 	  	</li>
 	  	{% endfor %}
 	</ul>
