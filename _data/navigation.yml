@@ -1,6 +1,9 @@
 - name: Home
   link: /
+  font: fas fa-home
 - name: Portfolio
   link: /portfolio/
+  font: fas fa-portrait
 - name: Blog
   link: /blog/
+  font: fab fa-blogger
