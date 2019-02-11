@@ -1,10 +1,16 @@
 ---
 layout: default
+comments: true
 ---
 <div class="container post">
 	<h5>{{ page.title }}</h5>
 	<h6>{{ page.date | date: "%A - %m/%d/%y" }}</h6>
 	{{ content }}
+</div>
+<div class="container">
+	{% if page.comments %} 
+		{% include disque.html %}     
+	{% endif %}
 </div>
 <div class="container">
 	<p>Follow me on: <a href="https://twitter.com/howhow1" target="_blank">Twitter</a><br>
