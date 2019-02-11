@@ -5,6 +5,7 @@ comments: true
 <div class="container post">
 	<h5>{{ page.title }}</h5>
 	<h6>{{ page.date | date: "%A - %m/%d/%y" }}</h6>
+	<p>By: {{ site.author }} | <a href="{{ post.url }}#disqus_thread"></a></p>
 	{{ content }}
 </div>
 <div class="container">
