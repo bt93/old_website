@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "World Series Game Three"
+title: "World Series: Game Three"
 date: 2018-10-27 00:00:00 -0400
 comments: true
 ---
