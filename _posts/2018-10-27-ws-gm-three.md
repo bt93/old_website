@@ -14,3 +14,5 @@ Quite honestly I so much happened I can't even remember it all so I'll just leav
 <a href="{{ site.url }}/{% link img/2018ws-gm-three.jpg %}" target="_blank">Click To Enlarge</a>
 
 <a href="https://www.baseball-reference.com/boxes/LAN/LAN201810260.shtml" target="_blank">Offical Stats</a>
+
+Scorebook by: [Bob Carpenter](https://www.bcscorebook.com/).
