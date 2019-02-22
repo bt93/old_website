@@ -17,35 +17,4 @@ pagination:
 	    </li>
 	  {% endfor %}
 	</ul>
-	{% if paginator.total_pages > 1 %}
-	<nav>
-	  <ul class="pagination justify-content-center">
-		{% if paginator.previous_page %}
-	    <li class="page-item">
-	      <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" tabindex="-1" aria-disabled="false">Previous</a>
-	    </li>
-		{% else %}
-		<li class="page-item disabled">
-	      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-	    </li>
-	    {% endif %}
-	    	{% if paginator.page_trail %}
-  				{% for trail in paginator.page_trail %}
- 					<li class="page-item {% if page.url == trail.path %}class="selected"{% endif %}">
- 						<a class="page-link" href="{{ trail.path | prepend: site.baseurl }}">{{ trail.num }}</a>
- 					</li>
- 				{% endfor %}
- 			{% endif %}
-		{% if paginator.next_page %}
-	    <li class="page-item">
-	      <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Next</a>
-	    </li>
-	    {% else %}
-		<li class="page-item disabled">
-	      <a class="page-link" href="#">Next</a>
-	    </li>
-	    {% endif %}
-	  </ul>
-	</nav>
-	{% endif %}
 </div>
