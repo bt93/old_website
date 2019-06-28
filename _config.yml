@@ -12,19 +12,3 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:name/
-
-plugins:
-  - jekyll-paginate-v2
-
-
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: /:num/
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  trail:
-    before: 3
-    after: 3
